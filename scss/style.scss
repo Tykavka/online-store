@@ -1,0 +1,77 @@
+@import "_reset.scss";
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700,800,900&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:300,400&display=swap);
+
+
+body {
+	font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.62;
+color: #323A4B;
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+[class*="__container"] {
+		max-width: 1144px;
+		margin: 0px auto;
+		padding-left: 15px;
+		padding-right: 15px;
+}
+.header {
+
+	&__container {
+		display: flex;
+		padding-top: 47px;
+		align-items: center;
+	}
+	&__nav {
+		margin-right: 114px;
+	}
+	&__btn {
+		font-weight: 500;
+		padding: 12px 20px;
+		background-color: #101828;
+		color: #FFFFFF;
+		border-radius: 47px;
+		text-align: center;
+	}
+}
+.logo {
+
+	&__link {
+		display: flex;
+		column-gap: 7px;
+		margin-right: 139px;
+		align-items: center;
+	}
+
+	&__name {
+		font-size: 22px;
+		line-height: 1.18;
+		color: #101828;
+		text-transform: lowercase;
+	}
+
+}
+.nav {
+
+	&__items {
+		display: flex;
+		column-gap: 60px;
+	}
+
+	&__item {
+		font-weight: 500;
+		letter-spacing: 1px;
+		color: #006D77;
+	}
+}
