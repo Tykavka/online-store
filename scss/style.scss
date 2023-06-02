@@ -30,11 +30,12 @@ color: #323A4B;
 
 	&__container {
 		display: flex;
+		
 		padding-top: 47px;
 		align-items: center;
 	}
 	&__nav {
-		margin-right: 114px;
+		flex-grow: 1;
 	}
 	&__btn {
 		font-weight: 500;
